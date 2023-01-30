@@ -1,0 +1,4 @@
+- name: Make Folder
+  win_shell: mkdir C:\temp
+  args:
+    executable: cmd.exe
